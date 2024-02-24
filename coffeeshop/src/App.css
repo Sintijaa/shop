@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+#root {
+  max-width: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: #222831;
+  min-height: 1080px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.firstPage{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 40px;
+  min-height: 80vh;
+}
+
+.p, h1, h2{
+  color: white;
+}
+
+.h1{
+  font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-size: 188px;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0;
+}
+
+.h2{
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.p{
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+}
+
+.wave1{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.coffeeImage{
+  position: absolute;
+  height: 85%;
+  bottom: 0px;
+  right: 0px;
+}
+
+.orderButton{
+  cursor: pointer;
+  width: 40%;
+  background-color: var(--primary);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+
+/***********************Second page**********************************/
+
+.secondPage{
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--primary);
+}
+
+.h1_2{
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-size: 188px;
+  letter-spacing: 2px;
+  color: white;
+  margin: 0;
+  width: 30%;
+}
