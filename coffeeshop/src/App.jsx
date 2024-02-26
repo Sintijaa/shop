@@ -24,11 +24,13 @@ function App() {
         <div className='secondPage'>
         <img src={coffeeRing}  className='coffeeRing'/>
           <h1 className='h1_2'>Black Coffees</h1>
+          <button className='orderButton'>Order Now</button>
         </div>
         <img src={wave2}  className='wave2'/>
         <div classname='thirdPage'>
         <img src={hotCoffeeImage}  className='hotCoffeeImage'/>
-
+        
+       
         </div>
     </>
   );
