@@ -87,8 +87,11 @@ html {
 
 .secondPage{
   display: flex;
+  align-items: flex-end;
   min-height: 100vh;
   background-color: var(--primary);
+  position: relative;
+
 }
 
 .h1_2{
@@ -97,25 +100,41 @@ html {
   font-size: 188px;
   letter-spacing: 2px;
   color: white;
-  margin: 0;
-  width: 30%;
+  margin: 100px;
+  width: 80%;
 }
 .coffeeRing {
-  position: right;
-  height: 85%;
-  bottom: 0;
-  right: 0;
+  position: absolute;
+  height: 65%;
+  bottom: 80px;
+  right: 200px;
+}
+.ordersButton{
+  cursor: pointer;
+  width: 20%;
+  background-color: var(--background);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-left: 50px;
 }
 
-
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 /***********************Third page**********************************/
 .thirdPage{
-  position: absolute;
+  position: relative;
   display: flex;
   min-height: 100vh;
-  background-color: var(--primary);
+  width: 100%;
+  background-color: var(--background);
 }
 .wave2{
   position: absolute;
@@ -124,8 +143,199 @@ html {
   height:35%;
 }
 .hotCoffeeImage{
-  position: right;
-  height: 85%;
-  bottom: 0;
-  right: 0;
+  position: absolute;
+  height: 60%;
+  top: 250px;
+  left: 150px;
+
 }
+.h1_2{
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 188px;
+  letter-spacing: 2px;
+  color: white;
+  margin: 70px;
+  width: 80%;
+}
+.ordersButtons{
+  cursor: pointer;
+  width: 20%;
+  background-color: var(--primary);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-left: 50px;
+}
+.secondBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/***********************Fourth page**********************************/
+.fourthPage{
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--background);
+}
+.OrdersButtons{
+  cursor: pointer;
+  width: 20%;
+  background-color: var(--primary);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-left: 50px;
+}
+.whiteCoffeeImage{
+  position: absolute;
+  height: 65%;
+  bottom: 80px;
+  right: 250px;
+}
+.thirdBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.thirdBox1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1_2{
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 188px;
+  letter-spacing: 2px;
+  color: white;
+  margin: 60px;
+  width: 80%;
+}
+
+/***********************Fifth page**********************************/
+
+.fifthPage{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.voucherImage{
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 65%;
+  bottom: 80px;
+  right: 180px;
+}
+.getButton{
+  cursor: pointer;
+  width: 20%;
+  background-color: var(--primary);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-left: 50px;
+}
+
+
+
+/******************************customer reviews*****************************************/
+.reviewsPage{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.wave3{
+  position: relative;
+  bottom: 25px;
+  width: 100%;
+  z-index: 1;
+}
+
+.ellaImage{
+  position: relative;
+  height: 65%;
+  bottom: 80px;
+  right: 20px;
+}
+.johnImage{
+  position: relative;
+  height: 65%;
+  bottom: 80px;
+  right: 10px;
+}
+.ellaReviewsBox{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+.jonhReviewsBox{
+  display: flex ;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+.reviewsBox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/**********************we are open*************************************/
+
+.openPage{
+  display: flex;
+  align-items: flex-end;
+  min-height: 100vh;
+  background-color: var(--primary);
+  position: relative;
+
+}
+
+
+
+/**************************branches*************************************/
+.branchesPage{
+  display: flex;
+  align-items: flex-end;
+  min-height: 100vh;
+  background-color: var(--primary);
+  position: relative;
+
+}
+.wave4{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height:35%;
+}
+
+
