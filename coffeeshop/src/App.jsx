@@ -15,7 +15,6 @@ import wave4 from './assets/waves/wave4.png';
 
 
 function App() {
-
   return (
     <>
         <Header />
