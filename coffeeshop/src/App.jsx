@@ -70,7 +70,7 @@ function App() {
 
 
         <div className='reviewsPage'>
-          <h1 className='h1_2'>Customer Reviews</h1>
+          <h1 className='h1'>Customer Reviews</h1>
             <div className='reviewsBox'>
               <div className='ellaReviewsBox'>
                 <img src={johnImage}  className='johnImage'/>
@@ -86,7 +86,15 @@ function App() {
 
         <div className='openPage'>
           <h1 className='h1_2'>We are open</h1>
+          <h2>Monday - Friday</h2>
+          <p className='p'>10:00 am- 10:00pm</p>
+          <h2>Saturday and Sunday</h2>
+          <p className='p'>10:00 am- 10:00pm</p>
+        </div>
 
+        <div className='branchesPage'>
+          <h1 className='h1_2'>Our Branches</h1>
+          
         </div>
     </>
   );
