@@ -7,10 +7,15 @@ import whiteCoffeeImage from './assets/images/777.png';
 import voucherImage from './assets/images/voucher.png';
 import ellaImage from './assets/images/ella.png';
 import johnImage from './assets/images/john.png';
+import newYorkImage from './assets/images/newYork.png';
+import jakartaImage from './assets/images/jakarta.png';
+import parisImage from './assets/images/paris.png';
 import wave1 from './assets/waves/wave1.png';
 import wave2 from './assets/waves/wave2.png';
 import wave3 from './assets/waves/wave3.png';
 import wave4 from './assets/waves/wave4.png';
+import wave5 from './assets/waves/wave5.png';
+
 
 
 
@@ -86,14 +91,36 @@ function App() {
 
         <div className='openPage'>
           <h1 className='h1_2'>We are open</h1>
-          <h2>Monday - Friday</h2>
+          <h2 className='h2'>Monday - Friday</h2>
           <p className='p'>10:00 am- 10:00pm</p>
-          <h2>Saturday and Sunday</h2>
+          <h2 className='h2'>Saturday and Sunday</h2>
           <p className='p'>10:00 am- 10:00pm</p>
+          
         </div>
+        <img src={wave4}  className='wave4'/>
+
 
         <div className='branchesPage'>
           <h1 className='h1_2'>Our Branches</h1>
+
+          <div className='branches'>
+            <img src={newYorkImage}  className='newYorkImage'/>
+            <h1 className='name'>New York</h1>
+            <p className='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          </div>
+
+          <div className='branches'>
+            <img src={jakartaImage}  className='jakartaImage'/>
+            <h1 className='name'>Jakarta</h1>
+            <p className='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          </div>
+
+          <div className='branches'>
+            <img src={parisImage}  className='parisImage'/>
+            <h1 className='name'>Paris</h1>
+            <p className='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            
+          </div>
           
         </div>
     </>
