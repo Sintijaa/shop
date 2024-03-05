@@ -123,6 +123,12 @@ function App() {
           </div>
           
         </div>
+
+        <img src={wave5}  className='wave5'/>
+        <div className='information'>
+        <h1 className='name'>YOUR LOGO</h1>
+
+        </div>
     </>
   );
 
