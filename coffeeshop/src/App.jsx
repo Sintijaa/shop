@@ -127,6 +127,15 @@ function App() {
         <img src={wave5}  className='wave5'/>
         <div className='information'>
         <h1 className='name'>YOUR LOGO</h1>
+        <div className='textBox'>
+          <h1>Information</h1>
+          <h1>About us</h1>
+          <h1>Branches</h1>
+          <h1>Menu</h1>
+          <h1>Contact</h1>
+          <h1>Map</h1>
+        </div>
+        
 
         </div>
     </>
