@@ -381,15 +381,53 @@ h2{
   background-color: var(--primary);
   position: relative;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
 }
 .wave5{
   position: relative;
-  bottom: 0px;
-  width: 100%;
   z-index: 1;
+  width: 100%;
+}
+h5{
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: white;
+  margin: 30px;
+  width: 80%;
+  align-items: center;
 }
 .textBox{
   display: flex;
   align-items: flex-end;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+.logo {
+  font-size: 24px;
+  color: white;
+}
+.nav {
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  color: white;
 }

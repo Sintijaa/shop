@@ -125,15 +125,39 @@ function App() {
         </div>
 
         <img src={wave5}  className='wave5'/>
-        <div className='information'>
+        <div className='informationPage'>
         <h1 className='name'>YOUR LOGO</h1>
         <div className='textBox'>
-          <h1>Information</h1>
-          <h1>About us</h1>
-          <h1>Branches</h1>
-          <h1>Menu</h1>
-          <h1>Contact</h1>
-          <h1>Map</h1>
+        <div class="header">
+        <div class="logo">YOUR LOGO</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        
+    </div>
+    <div class="footer">
+        <div>
+            <h5>Information</h5>
+            <a href="#">About us</a>
+            <a href="#">Branches</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+            <a href="#">Map</a>
+        </div>
+        <div>
+            <h5>Contact Us</h5>
+            <p>Support</p>
+            <p>your_id@gmail.com</p>
+           
+        </div>
+    </div>
         </div>
         
 
